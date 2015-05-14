@@ -1,0 +1,40 @@
+body {
+	background-image: url(../images/graphy2.png);
+	background-repeat: repeat;
+	background-size: calc(1/12 * 100%);
+	font-family:'Quicksand', sans-serif;
+	padding: 0;
+}
+.col-md-2,.col-md-8 {
+	padding: 0;
+	
+}
+.logo-box {
+	margin-top: 125px;
+	height: 210px;
+	text-align: center;
+}
+.logo-box img {
+	width:163px;
+	height: 163px;
+	margin-bottom: 9px;
+}
+.logo-box p {
+	font-size: 30px;
+}
+.box, .box1 {
+	margin-top: 114px;
+	border: 1px solid;
+	background: #fff;
+}
+.box {
+	height: 223px;
+}
+.box1 {
+	height: 334px;
+}
+.small-box {
+	height: 80px;
+	width: 160px;
+	background: #e1e1e1;
+}
