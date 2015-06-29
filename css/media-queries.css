@@ -3,40 +3,133 @@
 /* ----------- mobiles ----------- */
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
-  	.logo-box {
-  		font-size: 16px;
-  		margin-bottom: 33px;
-  	}
-  	.logo-box img {
-		margin-top: 15px;
-		width: 120px;
-		height: 120px;
+  .head-nav div {
+		padding-top: 20px;
+		width: 26%;
+	}
+	.logo-box {
+		margin-bottom: 62px;
+	}
+	.logo-box img {
+		height: 98px;
+  		margin-top: 32px;
 	}
 	.logo-box p {
-  		margin-top: 14px;
-  	}
-  	.small-box {
-		height: 20px;
-		width: 65px;
-		font-size: 14px;
+		font-size: 18px;
+		margin-top: 5px;
 	}
-	.box {
-		font-size: 12px;
+	.small-box {
+		height: 30px;
+		width: 90px;
+		font-size: 16px;
+	}
+	.box p {
+		padding: 5px;
+	}
+	img.process-img, img.innovation-img {
+		height: 110px;
+	}
+	.box-download {
+		padding-bottom: 90px;
+	}
+	.connector1 img, .connector2 img, .connector3 img {
+		height: 60px;
 	}
 }
-
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .head-nav div {
+		padding-top: 20px;
+		width: 30%;
+	}
+	.logo-box {
+		margin-bottom: 62px;
+	}
+	.logo-box img {
+		height: 130px;
+  		margin-top: 60px;
+	}
+	.logo-box p {
+		font-size: 20px;
+	}
+	img.process-img, img.innovation-img {
+		height: 150px;
+	}
+	.box-download {
+		padding-bottom: 117px;
+	}
+	.connector1 img, .connector2 img, .connector3 img {
+		height: 90px;
+	}
+}
 /* ----------- Tablet ----------- */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	#side1, #side2 {
-		display: none;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.head-nav div {
+		padding-top: 40px;
+		width: 25%;
+		font-size: 14px;
 	}
+	.logo-box {
+		margin-bottom: 64px;
+		margin-top: 32px;
+	}
+	.logo-box img {
+		width: 130px;
+	}
+	.logo-box p {
+ 		margin-top: 10px;
+ 		font-size: 20px;
+	}
+	.small-box {
+		height: 35px;
+		width: 120px;
+	}
+	img.process-img, img.innovation-img {
+		height: 110px;
+	}
+	.box-download {
+		padding-bottom: 117px;
+	}
+	.connector1 img, .connector2 img, .connector3 img {
+		height: 90px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.head-nav div {
+		padding-top: 52px;
+		width: 20.5%;
+		font-size: 14px;
+	}
+	.logo-box img {
+		width: 130px;
+	}
+	.logo-box p {
+ 		margin-top: 10px;
+ 		font-size: 20px;
+	}
+	.small-box {
+		height: 35px;
+		width: 120px;
+	}
+	img.process-img, img.innovation-img {
+		height: 110px;
+	}
+
 }
 
 /* ----------- Desktop ----------- */
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
-	
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+	.box {
+		font-size: 20px;
+	}
+	img.process-img, img.innovation-img {
+		height: 145px;
+	}
 }
-  	
+@media screen and (min-width: 1350px) and (max-width: 1600px) {
+	.box {
+		font-size: 22px;
+	}
+} 	
 
 

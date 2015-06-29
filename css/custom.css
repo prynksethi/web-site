@@ -1,23 +1,111 @@
 body {
 	font-family:'Quicksand', sans-serif;
+	background-image: url(../images/grid_12.png);
+	background-repeat: repeat-y repeat-x;
+	background-size: 100%;
+	height: 100%;
+	width:100%;
+}
+.padding-reset {
+	padding: 0;
+}
+.vertically-bottom {
+	vertical-align: bottom;
+}
+.head_logo div{
+	padding-left: 50px;
+	padding-top: 50px;
+}
+.head_logo p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.head_logo img {
+	width: 127px;
+}
+.work-heading h3 {
+	margin-top: 10px;
+}
+.work-listenin {
+	background: #3d3d3d;
+	padding-top: 10px;
+	margin-top: 71px;
+}
+.work-makeystreet {
+	background: #fff;
+	padding-top: 10px;
+	margin-top: 128px;
+}
+.work-bhash {
+	background: #87BEE5;
+	color: #fff;
+}
+.work-specker {
+	margin-bottom: 120px;
+	background: #F6F7FB;
+}
+.work-zehntech, .work-specker, .work-zehntech, .work-bhash {
+	padding-top: 10px;
+	margin-top: 128px;
+}
+.work-zehntech {
+	background: #F58C6A;
+	color: #fff;
+}
+.work-listenin p {
+	color: #fff;
+	font-size: 20px;
+}
+.work-makeystreet p, .work-bhash p, .work-specker p, .work-zehntech p {
+	font-size: 20px;
+}
+.work-listenin img, .work-makeystreet img, .work-bhash img, .work-specker img, .work-zehntech img {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.offering-heading div {
+	padding: 40px;
+	font-size: 22px;
+}
+.offering-1 {
+	margin-top: 18px;
+	display: flex;
+}
+.offering-2, .offering-3, .offering-4 {
+	margin-top: 117px;
+	display: flex;
+}
+.offering-4 {
+	margin-bottom: 117px;
+}
+.service1,.service2, .service4, .service3 {
+	background: #F4F1F8;
+}
+.service1-content, .service2-content, .service4-content, .service3-content {
+	background: #fff;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+.service1-content h3, .service2-content h3, .service4-content h3, .service3-content h3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.service1-content p, .service2-content p, .service4-content p, .service3-content p{
+	font-size: 20px;
+}
+.para-2 {
+	margin-top: 25px;
+}
+.back-red {
+	background-color: #f58b69;
+}
+.back-yellow {
+	background: #F8F389;
+}
+.back-green {
+	background: #BEDC8A;
 }
 
-.col-md-2, .col-md-8 , .col-md-12, .col-md-6 {
-	padding:0;
-}
-.height113 img {
-	height: 113px;
-}
-.header {
-	height: 113px;
-}
-.header {
-	background-image: url(../images/grid_12.png);
-	background-size: 100% 110px;
- 	background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-}
 .head-nav div {
 	padding-top: 73px;
 	padding-bottom: 8px;
@@ -41,27 +129,10 @@ body {
 	text-decoration: none;
 	color: #000;
 }
-.inner {
-    width: 100%;
-    margin: 0 auto;
-	background-image: url(../images/grid_8.png);
-	background-size: 100%;
-	background-repeat: repeat-y repeat-x;
-	height: 100%;
-	float: center;
+.col-md-2, .col-md-8 , .col-md-12, .col-md-6 {
 	padding:0;
 }
-.box-right, .box-left{
-	background-image: url(../images/grid_2.png);
-	background-repeat: repeat-y repeat-x;
-	background-size: 100%;
-	height: 100%;
-	width:100%;
-}
-.box-right { float: left; padding: 0;}
-.box-left { float: right; padding:0;}
 
-/* logo area */
 .logo-box {
 	text-align: center;
 	font-size: 25px;
@@ -76,17 +147,9 @@ body {
 	margin-bottom: 0;
 }
 
-/*boxes area */
-.box1 {
-	height: 223px;
-}
-.box2 {
-	height: 335px;
-}
 .box {
 	border: 1px solid #d1d2d4;
 	background: #fff;
-	font-size: 22px;
 }
 .box p {
 	padding: 23px 80px;
@@ -105,7 +168,7 @@ body {
 .box-download {
 	padding-bottom: 178px;
 }
-.box-download div{
+.box-download div.download-button {
 	font-size: 12px;
 	border: 1px solid #d1d2d4;
 	background: #fff;
