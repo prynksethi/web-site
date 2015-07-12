@@ -391,6 +391,7 @@ nav ul li a:hover {
 	.logo-box {
 		margin-bottom: 64px;
 		margin-top: 32px;
+		display: block;
 	}
 	.logo-box img {
 		width: 130px;
@@ -472,6 +473,11 @@ nav ul li a:hover {
 		width: 20.5%;
 		font-size: 14px;
 	}
+	.logo-box {
+		margin-bottom: 64px;
+		margin-top: 32px;
+		display: block;
+	}
 
 	.logo-box img {
 		width: 130px;
@@ -545,6 +551,11 @@ nav ul li a:hover {
 	.header-small-logo {
 		display: none;
 	}
+	.logo-box {
+		margin-bottom: 64px;
+		margin-top: 32px;
+		display: block;
+	}
 }
 @media screen and (min-width: 1350px) and (max-width: 1600px) {
 	.header-home {
@@ -564,6 +575,11 @@ nav ul li a:hover {
 	}
 	.header-small-logo {
 		display: none;
+	}
+	.logo-box {
+		margin-bottom: 64px;
+		margin-top: 32px;
+		display: block;
 	}
 } 	
 
