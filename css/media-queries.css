@@ -10,7 +10,7 @@
 		display: none;
 	}
 	.header-small-home {
-		display: block;
+		display: none;
 		margin-bottom: 20px;
 	}
   .head-nav div {
@@ -19,6 +19,7 @@
 	}
 	.logo-box {
 		margin-bottom: 10px;
+		display: none;
 	}
 	.head_logo img {
 		margin-bottom: 30px;
@@ -100,6 +101,9 @@
 	}
 	.service1, .service2, .service4, .service3 {
 		margin-top: 40px;
+	}
+	.outer {
+		padding-top: 30px;
 	}
 
   	/*plugin style hamburger */
@@ -197,7 +201,7 @@ nav ul li a:hover {
 		display: none;
 	}
 	.header-small-home {
-		display: block;
+		display: none;
 		margin-bottom: 60px;
 	}
 	.head-nav {
@@ -218,6 +222,7 @@ nav ul li a:hover {
 	}
 	.logo-box {
 		margin-bottom: 20px;
+		display: none;
 	}
 	.logo-box img {
 		height: 130px;
@@ -278,6 +283,9 @@ nav ul li a:hover {
 	}
 	.offering-4 img {
 	  width: 55%;
+	}
+	.outer {
+		padding-top: 30px;
 	}
 	/*plugin style hamburger */
   	.header {
@@ -441,11 +449,14 @@ nav ul li a:hover {
 	.offering-4 img {
 	  width: 55%;
 	}
-		.header-small {
+	.header-small {
 		display: none;
 	}
 	.header-small-logo {
 		display: none;
+	}
+	.header {
+		display: block;
 	}
 
 }
@@ -461,6 +472,7 @@ nav ul li a:hover {
 		width: 20.5%;
 		font-size: 14px;
 	}
+
 	.logo-box img {
 		width: 130px;
 	}
