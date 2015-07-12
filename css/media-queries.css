@@ -459,6 +459,9 @@ nav ul li a:hover {
 	.header {
 		display: block;
 	}
+	.head_logo div {
+	  padding: 25px 25px 0 25px;
+	}
 
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
