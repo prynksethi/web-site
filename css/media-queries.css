@@ -112,9 +112,7 @@
 	  width: 100%;
 	}
 	.collapse.in {
-  		position: fixed;
-  		height: 100%;
-  		transition: all 0.9s ease;
+  		
   	}
 
 }
