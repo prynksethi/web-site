@@ -3,12 +3,28 @@
 /* ----------- mobiles ----------- */
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
+	.hide-extra-small {
+		display: none;
+	}
+	.header-home {
+		display: none;
+	}
+	.header-small-home {
+		display: block;
+		margin-bottom: 20px;
+	}
   .head-nav div {
 		padding-top: 20px;
-		width: 26%;
+		width: 28%;
 	}
 	.logo-box {
-		margin-bottom: 62px;
+		margin-bottom: 10px;
+	}
+	.head_logo img {
+		margin-bottom: 30px;
+	}
+	.head_logo_small {
+		text-align: center;
 	}
 	.logo-box img {
 		height: 98px;
@@ -35,14 +51,102 @@
 	.connector1 img, .connector2 img, .connector3 img {
 		height: 60px;
 	}
+	.work-heading h3 {
+	  font-size: 18px;
+	}
+	.work-zehntech img, .work-specker img, .work-bhash img, .work-makeystreet img {
+		width: 100%;
+	}
+	.work-makeystreet img.logo-makey {
+		width: 40%;
+	}
+	.work-makeystreet p, .work-bhash p, .work-specker p, .work-zehntech p, .work-listenin p {
+		font-size: 14px;
+	}
+	.service1-content h3, .service2-content h3, .service4-content h3, .service3-content h3 {
+	  margin-bottom: 4px;
+	  font-size: 16px;
+	}
+	.service1-content, .service2-content, .service4-content, .service3-content {
+	  background: #fff;
+	  padding-left: 5px !important;
+	  padding-right: 5px !important;
+	}
+	.service1-content p, .service2-content p, .service4-content p, .service3-content p {
+	  font-size: 12px;
+	}
+	.contacts p, .contacts-detail p {
+		font-size: 18px;
+	}
+	.contacts-detail h3 {
+		font-size: 20px;
+	}
+	.offering-heading div {
+		font-size: 18px;
+		margin-top: 35px;
+	}
+	.offering-1 img, .offering-2 img, .offering-3 img {
+	  width: 100%;
+	}
+	.offering-4 img {
+	  width: 70%;
+	}
+	.offering-2, .offering-3, .offering-4 {
+	  margin-top: 70px;
+	}
+	.offering-1, .offering-2, .offering-3, .offering-4 {
+		display: block !important;
+		height: 106px;
+	}
+	.service1, .service2, .service4, .service3 {
+		margin-top: 40px;
+	}
+	.navbar-default {
+	  background-color: transparent;
+	  border-color: transparent;
+	}
+	.navbar-collapse {
+	  z-index:1000000;
+	  position: absolute;
+	  background: red;
+	  width: 100%;
+	}
+	.collapse.in {
+  		position: fixed;
+  		height: 100%;
+  		transition: all 0.9s ease;
+  	}
+
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
+	.hide-small {
+		display: none;
+	}
+	.header-home {
+		display: none;
+	}
+	.header-small-home {
+		display: block;
+		margin-bottom: 60px;
+	}
+	.head-nav {
+		margin-bottom: 20px;
+	}
   .head-nav div {
 		padding-top: 20px;
 		width: 30%;
 	}
+	.head_logo img {
+		margin-bottom: 30px;
+	}
+	.head_logo_small {
+		text-align: center;
+	}
+	.head_logo_small img {
+		margin-bottom: 30px;
+	}
 	.logo-box {
-		margin-bottom: 62px;
+		margin-bottom: 20px;
 	}
 	.logo-box img {
 		height: 130px;
@@ -60,10 +164,60 @@
 	.connector1 img, .connector2 img, .connector3 img {
 		height: 90px;
 	}
+	.work-specker img {
+		width: 30%;
+	}
+	.work-bhash img {
+		width: 30%;
+	}
+	.work-bhash img.vertically-bottom {
+		width: 15%;
+	}
+	.work-zehntech img {
+		width: 40%;
+	}
+	.work-makeystreet img {
+		width: 30%;
+	}
+	.work-makeystreet img.circle-icon, .work-makeystreet img.logo-makey {
+		width: 15%;
+	}
+	.work-listenin img {
+		width: 20%;
+	}
+	.work-listenin img.big-listenin {
+		width: 50%;
+	}
+	.work-heading h3 {
+	  font-size: 18px;
+	}
+	.service1-content h3, .service2-content h3, .service4-content h3, .service3-content h3 {
+	  margin-top: 10px;
+	  margin-bottom: 4px;
+	  font-size: 18px;
+	}
+	.service1-content, .service2-content, .service4-content, .service3-content {
+	  background: #fff;
+	  padding-left: 5px !important;
+	  padding-right: 5px !important;
+	  padding-top: 30px;
+	}
+	.service1-content p, .service2-content p, .service4-content p, .service3-content p {
+	  font-size: 14px;
+	}
+	.offering-4 img {
+	  width: 55%;
+	}
 }
 /* ----------- Tablet ----------- */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+	.header-home {
+		display: block;
+	}
+	.header-small-home {
+		display: none;
+	}
 	.head-nav div {
 		padding-top: 40px;
 		width: 25%;
@@ -93,8 +247,51 @@
 	.connector1 img, .connector2 img, .connector3 img {
 		height: 90px;
 	}
+	.work-specker img {
+		width: 30%;
+	}
+	.work-bhash img {
+		width: 30%;
+	}
+	.work-bhash img.vertically-bottom {
+		width: 15%;
+	}
+	.work-zehntech img {
+		width: 40%;
+	}
+	.work-makeystreet img {
+		width: 30%;
+	}
+	.work-makeystreet img.circle-icon, .work-makeystreet img.logo-makey {
+		width: 15%;
+	}
+	.work-listenin img {
+		width: 20%;
+	}
+	.work-listenin img.big-listenin {
+		width: 50%;
+	}
+	.service1-content h3, .service2-content h3, .service4-content h3, .service3-content h3 {
+	  margin-bottom: 5px;
+	  font-size: 20px;
+	}
+	.service1-content p, .service2-content p, .service4-content p, .service3-content p {
+	  font-size: 16px;
+	}
+	.offering-1 img, .offering-2 img, .offering-3 img {
+	  width: 83%;
+	}
+	.offering-4 img {
+	  width: 55%;
+	}
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+	.header-home {
+		display: block;
+	}
+	.header-small-home {
+		display: none;
+	}
 	.head-nav div {
 		padding-top: 52px;
 		width: 20.5%;
@@ -114,21 +311,65 @@
 	img.process-img, img.innovation-img {
 		height: 110px;
 	}
-
+	.work-specker img {
+		width: 30%;
+	}
+	.work-bhash img {
+		width: 30%;
+	}
+	.work-bhash img.vertically-bottom {
+		width: 15%;
+	}
+	.work-zehntech img {
+		width: 40%;
+	}
+	.work-makeystreet img {
+		width: 30%;
+	}
+	.work-makeystreet img.circle-icon, .work-makeystreet img.logo-makey {
+		width: 15%;
+	}
+	.work-listenin img {
+		width: 20%;
+	}
+	.work-listenin img.big-listenin {
+		width: 50%;
+	}
 }
 
 /* ----------- Desktop ----------- */
 @media screen and (min-width: 1200px) and (max-width: 1350px) {
+	.header-home {
+		display: block;
+	}
+	.header-small-home {
+		display: none;
+	}
 	.box {
 		font-size: 20px;
 	}
 	img.process-img, img.innovation-img {
 		height: 145px;
 	}
+	.head-nav div {
+  		padding-top: 62px;
+	}
+	.work-specker img {
+		width: 30%;
+	}
 }
 @media screen and (min-width: 1350px) and (max-width: 1600px) {
+	.header-home {
+		display: block;
+	}
+	.header-small-home {
+		display: none;
+	}
 	.box {
 		font-size: 22px;
+	}
+	img.process-img {
+		height: 180px;
 	}
 } 	
 
