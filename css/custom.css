@@ -22,6 +22,9 @@ body {
 .head_logo img {
 	width: 127px;
 }
+.works div {
+	margin-bottom: 111px;
+}
 .work-heading h3 {
 	margin-top: 10px;
 }
