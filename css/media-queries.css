@@ -101,20 +101,11 @@
 	.service1, .service2, .service4, .service3 {
 		margin-top: 40px;
 	}
-	.navbar-default {
-	  background-color: transparent;
-	  border-color: transparent;
-	}
-	.navbar-collapse {
-	  z-index:1000000;
-	  position: absolute;
-	  background: red;
-	  width: 100%;
-	}
-	.collapse.in {
-  		
-  	}
+
   	/*plugin style hamburger */
+  	.header {
+  		display: none;
+  	}
  nav,
 .navbar-toggle {
   -webkit-touch-callout: none;
@@ -407,6 +398,12 @@ nav ul li a {
 	.work-listenin img.big-listenin {
 		width: 50%;
 	}
+	.header-small {
+		display: none;
+	}
+	.header-small-logo {
+		display: none;
+	}
 }
 
 /* ----------- Desktop ----------- */
@@ -429,6 +426,12 @@ nav ul li a {
 	.work-specker img {
 		width: 30%;
 	}
+	.header-small {
+		display: none;
+	}
+	.header-small-logo {
+		display: none;
+	}
 }
 @media screen and (min-width: 1350px) and (max-width: 1600px) {
 	.header-home {
@@ -442,6 +445,12 @@ nav ul li a {
 	}
 	img.process-img {
 		height: 180px;
+	}
+	.header-small {
+		display: none;
+	}
+	.header-small-logo {
+		display: none;
 	}
 } 	
 
