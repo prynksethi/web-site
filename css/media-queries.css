@@ -52,6 +52,9 @@
 	.connector1 img, .connector2 img, .connector3 img {
 		height: 60px;
 	}
+	.work-heading div p{
+		font-size: 16px;
+	}
 	.work-heading h3 {
 	  font-size: 18px;
 	}
@@ -104,6 +107,9 @@
 	}
 	.outer {
 		padding-top: 30px;
+	}
+	.works {
+		display: none;
 	}
 
   	/*plugin style hamburger */
@@ -190,6 +196,9 @@ nav ul li a:hover {
 .navbar-on .bar2 { background-color: transparent; }
 .header-small-logo {
 	padding-top: 60px;
+} 
+.header-small-logo img {
+	width: 40%;
 } 
 
 }
@@ -286,6 +295,9 @@ nav ul li a:hover {
 	}
 	.outer {
 		padding-top: 30px;
+	}
+	.works {
+		display: none;
 	}
 	/*plugin style hamburger */
   	.header {
@@ -462,6 +474,9 @@ nav ul li a:hover {
 	.head_logo div {
 	  padding: 25px 25px 0 25px;
 	}
+	.works-small {
+		display: none;
+	}
 
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -526,6 +541,9 @@ nav ul li a:hover {
 	.header-small-logo {
 		display: none;
 	}
+	.works-small {
+		display: none;
+	}
 }
 
 /* ----------- Desktop ----------- */
@@ -559,6 +577,9 @@ nav ul li a:hover {
 		margin-top: 32px;
 		display: block;
 	}
+	.works-small {
+		display: none;
+	}
 }
 @media screen and (min-width: 1350px) and (max-width: 1600px) {
 	.header-home {
@@ -583,6 +604,9 @@ nav ul li a:hover {
 		margin-bottom: 64px;
 		margin-top: 32px;
 		display: block;
+	}
+	.works-small {
+		display: none;
 	}
 } 	
 
