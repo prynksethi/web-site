@@ -15,6 +15,7 @@ $( window ).resize(function() {
     $(".box3").css({ top: x*10 - x*10/300});
     $(".box-download").css({ top: 14*x });
     $(".offering-1, .offering-2, .offering-3, .offering-4").height(3*x);
+    $(".work-makeystreet, .work-bhash, .work-specker, .work-zehntech").height(4*x);
   }
 });
  if ($(window).width() > 992) {
@@ -35,5 +36,6 @@ $( window ).resize(function() {
   $(".connector3 img").css({ top: 13*x - error*13});
   $(".box-download").css({ top: 14*x - error*14});
   $(".offering-1, .offering-2, .offering-3, .offering-4").height(3*x);
+  $(".work-makeystreet, .work-bhash, .work-specker, .work-zehntech").height(4*x);
 }
 
