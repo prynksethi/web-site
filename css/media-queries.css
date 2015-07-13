@@ -54,6 +54,7 @@
 	}
 	.work-heading div p{
 		font-size: 16px;
+		padding-top: 25px;
 	}
 	.work-heading h3 {
 	  font-size: 18px;
@@ -82,6 +83,9 @@
 	.contacts p, .contacts-detail p {
 		font-size: 18px;
 	}
+	.contacts p {
+		padding-top: 25px;
+	}
 	.contacts-detail h3 {
 		font-size: 20px;
 	}
@@ -91,9 +95,11 @@
 	}
 	.offering-1 img, .offering-2 img, .offering-3 img {
 	  width: 100%;
+	  padding-top: 20px;
 	}
 	.offering-4 img {
 	  width: 70%;
+	  padding-top: 20px;
 	}
 	.offering-2, .offering-3, .offering-4 {
 	  margin-top: 70px;
@@ -111,7 +117,9 @@
 	.works {
 		display: none;
 	}
-
+	.shadow {
+		box-shadow: none;
+	}
   	/*plugin style hamburger */
   	.header {
   		display: none;

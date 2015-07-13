@@ -1,10 +1,13 @@
 body {
 	font-family:'Quicksand', sans-serif;
-	background-image: url(../images/grid_12.png);
-	background-repeat: repeat-y repeat-x;
-	background-size: 100%;
 	height: 100%;
 	width:100%;
+	background-image: url("../images/grid_12.png");
+	background-repeat: repeat-x repeat-y;
+	background-size: 100%;
+}
+.shadow {
+	box-shadow: 2px 2px 4px #e1e1e1;
 }
 .padding-reset {
 	padding: 0;
@@ -175,7 +178,7 @@ a .back-green {
 }
 
 .box {
-	border: 1px solid #d1d2d4;
+
 	background: #fff;
 }
 .box p {
@@ -213,6 +216,9 @@ a .back-green {
 .contacts p, .contacts-detail p {
 	font-size: 23px;
 	font-weight: 700;
+}
+.contacts p {
+	padding-top: 60px;
 }
 .contacts-detail h3 {
 	font-size: 20px;
